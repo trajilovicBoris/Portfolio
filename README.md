@@ -2,7 +2,7 @@
 
 Welcome to my **Test Automation Engineer Portfolio** — a showcase of my work, projects, and expertise in software testing and automation.
 
-🌐 **Live Site:** [https://trajilovicBoris.github.io/test-automation-portfolio](https://trajilovicBoris.github.io/test-automation-portfolio)
+🌐 **Live Site:** [https://trajilovicBoris.github.io/Portfolio](https://trajilovicBoris.github.io/Portfolio)
 
 ---
 
@@ -50,24 +50,13 @@ I specialize in:
 
 ---
 
-## 🚀 Deployment
-
-This portfolio is built using **HTML, CSS, and JavaScript** and is hosted on **GitHub Pages**.
-
-To deploy:
-1. Clone this repo  
-2. Open `index.html` in your browser (local preview)
-3. Push to `main` branch — GitHub Pages handles deployment automatically
-
----
-
 ## 📫 Contact
 
-Let’s connect and talk about QA automation or your next project!
+Let’s connect and talk about QA automation for your next project!
 
-- **Email:** [youremail@example.com](mailto:youremail@example.com)
-- **LinkedIn:** [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
-- **GitHub:** [github.com/yourusername](https://github.com/yourusername)
+- **Email:** <!--- [youremail@example.com](mailto:youremail@example.com)-->
+- **LinkedIn:** <!--[linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)-->
+- **GitHub:** [github.com/trajilovicBoris](https://github.com/trajilovicBoris)
 
 ---
 
