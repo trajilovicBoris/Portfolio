@@ -1,9 +1,17 @@
-/* script.js */
-window.addEventListener('scroll', () => {
-  const header = document.querySelector('header');
-  if (window.scrollY > 50) {
-    header.style.background = '#0056b3';
-  } else {
-    header.style.background = 'linear-gradient(120deg, #007bff, #0056b3)';
-  }
+// Mobile Navbar Toggle
+const menuToggle = document.getElementById('menu-toggle');
+const navLinks = document.getElementById('nav-links');
+
+menuToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+  menuToggle.classList.toggle('open');
+});
+
+// Smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e){
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior:'smooth' });
+    navLinks.classList.remove('active');
+  });
 });

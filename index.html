@@ -1,94 +1,304 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Boris Trajilovic | Test Automation Engineer</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boris Trajilovic | Senior Test Automation Engineer</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS Animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-  <header>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar">
+    <div class="container nav-content">
+      <a href="#home" class="logo">Boris Trajilovic</a>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#philosophy">Philosophy</a>
+        <a href="#career">Career</a>
+        <a href="#tools">Tools</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="home" class="hero">
+    <!-- Optional floating icons -->
+    <div class="floating-icons">
+      <img src="images/icons/selenium.svg" alt="Selenium">
+      <img src="images/icons/jenkins.svg" alt="Jenkins">
+      <img src="images/icons/docker.svg" alt="Docker">      
+      <img src="images/icons/python.svg" alt="Python">
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="highlight">Boris Trajilovic</span></h1>
+        <h2>Senior Test Automation Engineer</h2>
+        <p>I design, build, and scale automated testing solutions that help teams release faster and with confidence.</p>
+        <div class="hero-buttons">
+          <a href="#career" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/codes.svg" alt="Test Automation Illustration">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About Me Section ===== -->
+  <section id="about" class="about">
+    <div class="container about-content">
+      <div class="about-text" data-aos="fade-right">
+        <h2>About Me</h2>
+        <p>
+          I’m a <strong>Senior Test Automation Engineer</strong> with over <strong>10 years of experience</strong>
+          designing and implementing scalable testing frameworks for web, API, and mobile applications.
+          I specialize in helping teams improve release velocity and product quality through smart automation.
+        </p>
+        <p>
+          My approach combines robust architecture, continuous integration, and detailed reporting —
+          ensuring every build is tested efficiently and transparently. Whether it’s Selenium, Playwright, or CI/CD pipelines,
+          I focus on building systems that teams can trust and maintain long-term.
+        </p>
+
+        <div class="about-highlights">
+          <div class="highlight">
+            <h3>50% Faster Releases</h3>
+            <p>Delivered automation pipelines reducing regression time from 3 days to 1.5 days.</p>
+          </div>
+          <div class="highlight">
+            <h3>Framework Expert</h3>
+            <p>Architected modular Selenium and Playwright test frameworks with reporting and CI/CD integration.</p>
+          </div>
+          <div class="highlight">
+            <h3>Cross-Platform</h3>
+            <p>Hands-on experience in Web, API, and Mobile testing with tools like Appium, RestAssured, and Postman.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-photo" data-aos="fade-left">
+        <img src="assets/profile-photo.jpg" alt="Profile photo">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Testing Philosophy ===== -->
+  <section id="philosophy" class="philosophy">
     <div class="container">
-      <h1>Hi, I'm Boris Trajilovic</h1>
-      <p>Senior Test Automation Engineer | 10+ Years Experience</p>
-      <a href="#contact" class="btn">Let's Work Together</a>
-    </div>
-  </header>
-
-  <section id="about" class="container">
-    <h2>About Me</h2>
-    <p>
-      I’m a senior test automation engineer with a decade of experience designing and implementing automation frameworks across web, mobile, and API layers. I help teams deliver high-quality software faster by building scalable, maintainable, and CI/CD-integrated test systems using tools like Selenium, Playwright, Cypress, and Appium.
-    </p>
-  </section>
-
-  <section id="services" class="bg-light">
-    <div class="container">
-      <h2>Services</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>End-to-End Test Automation</h3>
-          <p>Automating complex workflows for web and mobile applications.</p>
-        </div>
-        <div class="card">
-          <h3>Framework Design & CI/CD</h3>
-          <p>Designing robust automation frameworks integrated with Jenkins or GitHub Actions.</p>
-        </div>
-        <div class="card">
-          <h3>QA Strategy Consulting</h3>
-          <p>Defining efficient test strategies and guiding teams on automation best practices.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="portfolio" class="container">
-    <h2>Portfolio</h2>
-    <div class="grid">
-      <div class="card">
-        <img src="assets/project1.png" alt="Project 1 Screenshot">
-        <h3>Project 1: E-commerce Automation</h3>
-        <p>Created a full regression suite for a major online retailer using Playwright and integrated it into CI/CD for nightly builds.</p>
-        <a href="https://github.com/yourusername/project1" target="_blank" class="btn-secondary">View on GitHub</a>
-      </div>
-      <div class="card">
-        <img src="assets/project2.png" alt="Project 2 Screenshot">
-        <h3>Project 2: API Testing Framework</h3>
-        <p>Developed an API automation framework with RestAssured and Newman, achieving 90% coverage of core services.</p>
-        <a href="https://github.com/yourusername/project2" target="_blank" class="btn-secondary">View on GitHub</a>
-      </div>
-      <div class="card">
-        <img src="assets/project3.png" alt="Project 3 Screenshot">
-        <h3>Project 3: Mobile Test Automation</h3>
-        <p>Built a cross-platform Appium automation suite for Android and iOS applications used by over 1M users.</p>
-        <a href="https://github.com/yourusername/project3" target="_blank" class="btn-secondary">View on GitHub</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="bg-light">
-    <div class="container text-center">
-      <h2>Get in Touch</h2>
-      <p>If you’re looking for an experienced automation engineer or QA consultant, let’s connect!</p>
-      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-      <p>
-        <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a> |
-        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <h2>My Testing Philosophy</h2>
+      <p class="intro">
+        I believe that great automation is not just about writing scripts — it’s about designing resilient systems that scale, empower teams, and accelerate delivery.
       </p>
+
+      <div class="principles">
+        <div class="principle" data-aos="fade-up">
+          <h3>Maintainability First</h3>
+          <p>Every framework I build emphasizes modular, data-driven design — ensuring teams can add or modify tests without friction.</p>
+        </div>
+        <div class="principle" data-aos="fade-up" data-aos-delay="100">
+          <h3>⚙CI/CD Integration</h3>
+          <p>Testing should never be an afterthought. I integrate automated suites directly into pipelines using Jenkins, GitHub Actions, and Docker.</p>
+        </div>
+        <div class="principle" data-aos="fade-up" data-aos-delay="200">
+          <h3>Visibility & Reporting</h3>
+          <p>I use Allure, Extent Reports, and custom dashboards to make results clear, actionable, and available to everyone in the team.</p>
+        </div>
+        <div class="principle" data-aos="fade-up" data-aos-delay="300">
+          <h3>Collaboration Over Handoffs</h3>
+          <p>I work closely with developers, QA, and DevOps to align automation with real-world workflows and business goals.</p>
+        </div>
+        <div class="principle" data-aos="fade-up" data-aos-delay="400">
+          <h3>Continuous Improvement</h3>
+          <p>I regularly refine frameworks with the latest best practices — from Playwright migration to test parallelization and containerization.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <footer>
+  <!-- ===== Career Timeline ===== -->
+  <section id="career" class="career">
     <div class="container">
-      <p>© 2025 Boris Trajilovic | Test Automation Engineer</p>
-    </div>
-  </footer>
+      <h2>Career Highlights</h2>
+      <p class="intro">
+        A quick look at my journey from hands-on QA engineer to leading test automation strategy across teams and platforms.
+      </p>
 
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Senior Test Automation Engineer</h3>
+            <h4>TechCorp Solutions · 2020 – Present</h4>
+            <p>Leading enterprise-grade Playwright and Selenium frameworks. CI/CD pipelines with Jenkins & GitHub Actions reduced release time by 40%.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Automation Lead</h3>
+            <h4>FinEdge Systems · 2016 – 2020</h4>
+            <p>Managed a team of 5. Implemented API automation with RestAssured and Docker. Increased coverage to 85% across web & mobile.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>QA Engineer</h3>
+            <h4>SoftLabs · 2013 – 2016</h4>
+            <p>Built Selenium frameworks, automated key regression suites, and introduced data-driven testing practices.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Tools & Technologies ===== -->
+  <section id="tools" class="bg-light">
+    <div class="container">
+      <h2>Tools & Technologies</h2>
+      <p style="text-align:center; max-width:700px; margin:0 auto 2rem;">
+        These are the core tools I use to build, run, and maintain automated testing systems across web, mobile, and API platforms.
+      </p>
+
+      <div class="grid">
+      <!-- Web Automation -->
+      <div class="card tool-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" alt="Selenium Logo" class="tool-logo" />
+        <h3>Selenium</h3>
+        <p>Industry-standard framework for automating browsers with strong language support.</p>
+      </div>
+
+      <div class="card tool-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg" alt="Playwright Logo" class="tool-logo" />
+        <h3>Playwright</h3>
+        <p>Modern, fast test automation tool supporting multiple browsers and parallel execution.</p>
+      </div>
+
+      <div class="card tool-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cypressio/cypressio-original.svg" alt="Cypress Logo" class="tool-logo" />
+        <h3>Cypress</h3>
+        <p>End-to-end testing framework focused on JavaScript apps and real-time debugging.</p>
+      </div>
+
+      <!-- API Testing -->
+      <div class="card tool-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29_logo.svg" alt="Postman Logo" class="tool-logo" />
+        <h3>Postman</h3>
+        <p>Powerful API testing and collaboration platform for manual and automated testing.</p>
+      </div>
+
+      <div class="card tool-card">
+        <img src="https://avatars.githubusercontent.com/u/19369327?s=200&v=4" alt="RestAssured Logo" class="tool-logo" />
+        <h3>RestAssured</h3>
+        <p>Java library for automating RESTful API testing with clean and fluent syntax.</p>
+      </div>
+
+      <!-- Mobile Testing -->
+      <div class="card tool-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Appium.png" alt="Appium Logo" class="tool-logo" />
+        <h3>Appium</h3>
+        <p>Cross-platform automation tool for mobile applications on Android and iOS.</p>
+      </div>
+
+      <!-- CI/CD -->
+      <div class="card tool-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins Logo" class="tool-logo" />
+        <h3>Jenkins</h3>
+        <p>Continuous integration server that automates testing and deployment pipelines.</p>
+      </div>
+
+      <div class="card tool-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Actions Logo" class="tool-logo" />
+        <h3>GitHub Actions</h3>
+        <p>CI/CD automation within GitHub for running tests and workflows on every commit.</p>
+      </div>
+
+      <div class="card tool-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker Logo" class="tool-logo" />
+        <h3>Docker</h3>
+        <p>Containerization platform for consistent testing environments and CI pipelines.</p>
+      </div>
+
+      <!-- Reporting -->
+      <div class="card tool-card">
+        <img src="https://avatars.githubusercontent.com/u/5879127?s=200&v=4" alt="Allure Logo" class="tool-logo" />
+        <h3>Allure Report</h3>
+        <p>Attractive and interactive test reporting framework for any automation stack.</p>
+      </div>
+
+      <div class="card tool-card">
+        <img src="https://avatars.githubusercontent.com/u/37936628?s=200&v=4" alt="Extent Reports Logo" class="tool-logo" />
+        <h3>Extent Reports</h3>
+        <p>Rich, customizable test reports with charts, categories, and screenshots.</p>
+      </div>
+
+      <!-- Languages -->
+      <div class="card tool-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo" class="tool-logo" />
+        <h3>Python</h3>
+        <p>Dynamic scripting language used for API, UI, and backend automation frameworks.</p>
+      </div>
+
+      <div class="card tool-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java Logo" class="tool-logo" />
+        <h3>Java</h3>
+        <p>Enterprise-grade language for robust and scalable test automation frameworks.</p>
+      </div>
+
+      <div class="card tool-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Logo" class="tool-logo" />
+        <h3>JavaScript</h3>
+        <p>Lightweight scripting language powering browser-based and UI automation.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ===== Certifications ===== -->
+  <section id="certifications" class="certifications">
+    <div class="container">
+      <h2>Certifications</h2>
+      <p class="intro">
+        I hold a recognized professional certification that validates my expertise in software testing.
+      </p>
+
+      <div class="cert-grid">
+        <div class="cert-card" data-aos="zoom-in">
+          <img src="assets/certifications/istqb.svg" alt="ISTQB Certified">
+          <p>ISTQB Certified Tester</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>You can reach me via email at <strong>[your-email@example.com]</strong> or connect on <a href="[LinkedIn URL]">LinkedIn</a>.</p>
+    </div>
+  </section>
+
+  <!-- ===== Scripts ===== -->
   <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
 </body>
 </html>
-
-
-
-
