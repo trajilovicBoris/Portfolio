@@ -61,9 +61,9 @@ Let’s connect and talk about QA automation for your next project!
 ---
 
 ### 🧠 Words of Wisdom
-> - “But it works on my machine.”  
-> - "Send me the Link"
-> - //localhost:8080
-> — Me, trying to test the new webpage
+>  “But it works on my machine.”  
+>  "Send me the Link"
+>  //localhost:8080
+> — "Me, trying to test the new webpage"
 
 ---
