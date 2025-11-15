@@ -60,10 +60,11 @@ Let’s connect and talk about QA automation for your next project!
 
 ---
 
-### 🧠 Fun Fact
-> “Tests don’t just find bugs — they define confidence.”  
-> — Boris Trajilovic, Test Automation Engineer
+### 🧠 Words of Wisdom
+> -“But it works on my machine.”  
+> -"Send me the Link"
+> -//localhost:8080
+> — Me, trying to test the new webpage
 
 ---
 
-⭐️ **If you like this project, give it a star!**
