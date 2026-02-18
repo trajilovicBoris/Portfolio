@@ -1,12 +1,12 @@
-# 🧪 Test Automation Portfolio
+# Test Automation Portfolio
 
 Welcome to my **Test Automation Engineer Portfolio** — a showcase of my work, projects, and expertise in software testing and automation.
 
-🌐 **Live Site:** [https://trajilovicBoris.github.io/Portfolio](https://trajilovicBoris.github.io/Portfolio)
+ **Live Site:** [https://trajilovicBoris.github.io/Portfolio](https://trajilovicBoris.github.io/Portfolio)
 
 ---
 
-## 👋 About Me
+##  About Me
 
 I’m **Boris Trajilovic**, a **Senior Test Automation Engineer** with 10+ years of experience in quality assurance, automation strategy, and framework design.
 
@@ -17,7 +17,7 @@ I specialize in:
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Category | Tools & Technologies |
 |-----------|----------------------|
@@ -31,7 +31,7 @@ I specialize in:
 
 ---
 
-## 📂 Projects
+##  Projects
 
 ### **1. E-Commerce Automation Suite**
 - Automated full regression tests for an online retail platform using **Playwright**
@@ -50,7 +50,7 @@ I specialize in:
 
 ---
 
-## 📫 Contact
+##  Contact
 
 Let’s connect and talk about QA automation for your next project!
 
@@ -60,6 +60,6 @@ Let’s connect and talk about QA automation for your next project!
 
 ---
 
-### 🧠 Words of Wisdom
+###  Words of Wisdom
 >  “But it works on my machine.”  
 ---
