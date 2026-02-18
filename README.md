@@ -55,7 +55,7 @@ I specialize in:
 Let’s connect and talk about QA automation for your next project!
 
 - **Email:** <!--- [youremail@example.com](mailto:youremail@example.com)-->
-- **LinkedIn:** <!--[linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)-->
+- **LinkedIn:** [https://www.linkedin.com/in/boristrajilovic/](https://www.linkedin.com/in/boristrajilovic/)
 - **GitHub:** [github.com/trajilovicBoris](https://github.com/trajilovicBoris)
 
 ---
